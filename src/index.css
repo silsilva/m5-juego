@@ -1,0 +1,22 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: "Hind Siliguri", sans-serif;
+  font-size: 30px;
+  background-image: url("/src/assets/wallpaper.svg");
+}
+
+.root {
+  max-width: 375px;
+  height: 100vh;
+}
+
+@media (min-width: 375px) {
+  .root {
+    max-width: 100%;
+    height: 100vh;
+  }
+}
